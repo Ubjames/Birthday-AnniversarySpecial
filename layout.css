@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "century gothic";
+}
+
+.header {
+    position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  top:-0px;
+  font-weight: 600;
+  padding-right: 100px;
+}
+
+.header > a {
+  text-decoration: none;
+  color: #fff;
+  margin-left: 40px;
+  font-size: 1.5rem;
+  /* border-bottom: 2px solid inherit; */
+  padding: 5px 10px;
+  /* transition: all 2s ease-in; */
+
+}
+
+.header > a:hover {
+  border-bottom: 2px solid #ff0095;
+  background:linear-gradient(rgba(0, 0, 0, 0.164), rgba(255, 255, 255, 0))
+}
+.home {
+  background: linear-gradient(rgba(124, 1, 73, 0.76), rgba(0, 0, 0, 0.60)),
+    url("./assests/white-background-cake.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  /* background: rgb(124, 1, 73); */
+  color: #fff;
+  padding: 0 40px;
+}
+.img-container > img {
+  width: 300px;
+  height: auto;
+}
+
+.home > .img-container {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  background: #fff;
+  border-radius: 100%;
+  height: 350px;
+  min-width: 350px;
+  overflow: hidden;
+  border: 5px solid #fff;
+  box-shadow: 5px 5px 20px #313131;
+  margin-right: 50px;
+  margin-left: 100px;
+}
+
+.home > div > h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.home > div > p {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-right: 20px;
+}
+
+section > button {
+  position: absolute;
+  color: #fff;
+  background: #be0049;
+  border: none;
+  width: 210px;
+  height: 50px;
+  border-radius: 0.3em;
+  top: 600px;
+  left: 200px;
+  font-size: 1.5rem;
+  box-shadow: 1px 1px 10px #313131;
+}
+
+section .text,
+.img-container {
+  margin-top: -150px;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  font-size: 1.5rem;
+}
+
+.section1 > div {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-right: 50px;
+  margin-top: 50px;
+  text-align: center;
+}
+.section1 > div > div {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  overflow: hidden;
+  border-radius: 100%;
+  width: 100px;
+  height: auto;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 10px #cacaca;
+}
+
+.section1 > div > span {
+  font-weight: 600;
+  text-decoration: underline;
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+}
+
+.section2 {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(219, 207, 219, 0.616);
+  padding: 20px 0;
+  font-size: 1.5rem;
+}
+.section2 > p {
+  margin-top: 15px;
+  width: 80%;
+  text-align: justify;
+}
+.section2 > h2 {
+  color: #7c0149;
+}
+
+form {
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 50px;
+}
+form > .user-id > input {
+  font-size: 1.5rem;
+  border: 2px solid #7c0149;
+  background: #7c014918;
+  width: 300px;
+  height: 50px;
+  margin-right: 10px;
+  padding: 10px;
+  border-radius: 0.4em;
+}
+
+form > .comment-section > textarea {
+  font-size: 1.5rem;
+  background: #7c014918;
+  border: 2px solid #7c0149;
+  margin-top: 10px;
+  width: 610px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 0.4em;
+}
+
+form > .comment-section > button {
+  color: #fff;
+  background: #5a1d4d;
+  border: none;
+  width: 100px;
+  height: 45px;
+  border-radius: 0.3em;
+  margin-left: 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+form > .comment-section {
+  display: flex;
+  align-items: flex-end;
+}
+
+form > #title {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: rgb(22, 15, 20);
+  color: #fff;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+footer > div {
+  display: flex;
+  margin-top: 20px;
+}
+footer > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+footer > div > div a {
+  margin-top: 10px;
+  text-decoration: none;
+  color: grey;
+}
+footer > div > div i {
+  text-decoration: none;
+  color: grey;
+}
+
+hr {
+  border: 1px solid rgba(128, 128, 128, 0.397);
+  margin-top: 40px;
+}
+footer p {
+  margin-top: 10px;
+}
