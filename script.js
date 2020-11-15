@@ -3,7 +3,6 @@ let post = document.querySelector("button[type=submit]");
 let ErrorMsg = document.querySelector("#Error-msg");
 let textArea = document.querySelector("textarea");
 
-
 // post.addEventListener('click', e =>{
 //     e.preventDefault()
 //     let userName;
@@ -14,8 +13,6 @@ let textArea = document.querySelector("textarea");
 //     userMessage = textArea.value;
 //     console.log(userName + ' from ' + userLocation + ' sends: ' + userMessage)
 
-
-
-
-  
 // })
+
+
