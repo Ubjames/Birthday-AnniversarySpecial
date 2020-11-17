@@ -5,20 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Happy Birthday</title>
     <link rel="stylesheet" href="layout.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+    <!-- Local -->
     <link rel="stylesheet" href="/fontawesome-free-5.13.1-web/css/all.css">
     <div id="fb-root"></div>
     <script defer src="script.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
 </head>
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0&appId=1092836421151165&autoLogAppEvents=1" nonce="MvbhXoz0"></script>
+
 <body>
     
     <section class="home" id="home">
         <div class="header">
             <a href="#home">HOME</a>
             <a href="#about">ABOUT</a>
-            <a href="#">POST</a>
+            <a href="#post">POST</a>
             <a href="#contact">CONTACT</a>
         </div>
 
@@ -81,8 +84,10 @@
             which was first conceived in 2018 and started manifesting in 2020 as this is the birth of <a href="https://facebook.com/ubtechmediablog"> <strong>UBTECH Media</strong></a>  Group which has the likes of other ICT-driven youths.
         </p>
     </section>
+<div id="post" style="margin-top:50px;">
 
-    <div id="disqus_thread"></div>
+    <div id="disqus_thread" ></div>
+</div>
     <script>
     
     /**
@@ -137,7 +142,10 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
 
         <script> 
-            AOS.init(); 
+            AOS.init({
+                offset:400,
+                duration:1000
+            }); 
         </script>
 </body>
 </html>
