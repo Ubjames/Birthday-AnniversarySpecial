@@ -8,22 +8,24 @@
     <link rel="stylesheet" href="/fontawesome-free-5.13.1-web/css/all.css">
     <div id="fb-root"></div>
     <script defer src="script.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
 </head>
 <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0&appId=1092836421151165&autoLogAppEvents=1" nonce="MvbhXoz0"></script>
 <body>
     
-
     <section class="home" id="home">
         <div class="header">
-        <a href="#home">HOME</a>
-        <a href="#about">ABOUT</a>
-        <a href="#">POST</a>
-        <a href="#contact">CONTACT</a>
-    </div>
-        <div class="img-container">
-            <img src="./assests/ubongJames.png" alt="">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#">POST</a>
+            <a href="#contact">CONTACT</a>
         </div>
+
+        <div class="img-container">
+            <img src="./assets/ubongJames.png" alt="">
+        </div>
+
         <div class="text"> 
             <h2>Happy Birthday</h2>  
             <p>
@@ -36,8 +38,8 @@
     </section>
 
     <section class="section1">
-        <div>
-            <div> <img src="./assests/skillsets.jpg" width="100" ></div>
+        <div data-aos="fade-up-right">
+            <div> <img src="./assets/skillsets.jpg" width="100" ></div>
             <span>Skill sets</span>
             <ul>
                 <li>Graphics design</li>
@@ -47,60 +49,66 @@
                 <li>Virtual Presenter</li>
             </ul>
         </div>
-        <div>
+        <div data-aos="fade-up-right">
             <div>
-                <img src="./assests/mission.jpg" alt="" width="100">
+                <img src="./assets/mission.jpg" alt="" width="100">
             </div>
             <Span>Mission</Span>
             <p> We're dedicated to delivery effective, efficient ICT Education and spur up Technology in the lives of many</p>
         </div>
-        <div>
-            <div><img src="./assests/vision.jpg" alt="" width="100"></div>
+        <div data-aos="fade-up-right">
+            <div><img src="./assets/vision.jpg" alt="" width="100"></div>
             <Span>Vission</Span>
             <p>To Establish an ICT Centre where Many people will be equipped with UpToDate ICT Skills </p>
         </div>
     </section>
 
-    <section class="section2" >
+    <div class="main-wrap" data-aos="fade-up-right">
+        <div class="video-wraper">
+            <iframe src="./assets/happyBirthday.mp4" frameborder="0" autocapitalize="off"></iframe>
+        </div>
+    </div>
+
+    <section class="section2" data-aos="fade-up-right">
         <h2 id="about">About the Celebrant</h2>
         <p>Ubong James is a committed, dedicated and a versatile ICT personnel. 
             He is an indigene of Mbiabong Etoi, Uyo Local Government Area, Akwa Ibom state, Nigeria.
-            He studied Computer at Deword ICT Academy where he obtained a Diploma in Information Technology in 2016 
-            from there he went on and to expand the scope of his studies in ICT.
-            He has served & taught in several Tech Organization/Institutes, he has trained over 500 students in ICT and still impacting.
+            He studied Computer at <a href="https://facebook.com/dewordictAcademy">Deword ICT Academy</a> where he obtained Diploma in Information Technology in 2016 
+            from there he went on and expanded the scope of his studies in ICT.
+            He has served & taught in several Tech Organization & Institutes, he has trained over 500 students in ICT and still impacting.
             According to Him, ICT is his Calling and as such he is doing it as a ministry.
-            He is currently pursuing his Vision (To Establish an ICT Centre where Many Nigerians will be equipped with UpToDate ICT Skills)
-            which was first conceived in 2018 and started manifesting in 2020 as this is the birth of <strong>UBTECH Media</strong> Group which has the likes of other ICT-driven youths.
+            He is currently pursuing a Vision (To Establish an ICT Centre where Many Nigerians will be equipped with UpToDate ICT Skills)
+            which was first conceived in 2018 and started manifesting in 2020 as this is the birth of <a href="https://facebook.com/ubtechmediablog"> <strong>UBTECH Media</strong></a>  Group which has the likes of other ICT-driven youths.
         </p>
-
     </section>
 
     <div id="disqus_thread"></div>
     <script>
     
-    // /**
-    // *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    // *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
     
-    // var disqus_config = function () {
-    // this.page.url = birthdayspecial-netlify-app;  // Replace PAGE_URL with your page's canonical URL variable
-    // this.page.identifier = https; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    // };
+    var disqus_config = function () {
+    this.page.url = birthdayspecial-netlify-app;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = https; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
    
-    // (function() { // DON'T EDIT BELOW THIS LINE
-    // var d = document, s = d.createElement('script');
-    // s.src = 'https://birthdayspecial-netlify-app.disqus.com/embed.js';
-    // s.setAttribute('data-timestamp', +new Date());
-    // (d.head || d.body).appendChild(s);
-    // })();
-    // </script>
-     <!-- <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript> -->
+    (function() { // DON'T EDIT BELOW THIS LINE
+    var d = document, s = d.createElement('script');
+    s.src = 'https://birthdayspecial-netlify-app.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+    })();
+    </script>
+     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
        
      <div class="fb-comments" data-href="https://developers.facebook.com/docs/plugins/comments#configurator" data-numposts="100" data-width="100"></div>
 
 
 <!--  -->
-    <footer>
+
+    <footer data-aos="fade-up">
         <h2 id="contact">Get in touch</h2>
     <div>
         <div> 
@@ -121,10 +129,15 @@
             <a href="https://github.com/Ubjames/#" target="_blank">Github</a>
         </div>
   </div>
-  <hr style="width: 500px;">
+  <hr>
   <p>All right reserved, UBTECH MEdia &copy; 2020</p>
     </footer>
     
     <script id="dsq-count-scr" src="//birthdayspecial-netlify-app.disqus.com/count.js" async></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+
+        <script> 
+            AOS.init(); 
+        </script>
 </body>
 </html>
