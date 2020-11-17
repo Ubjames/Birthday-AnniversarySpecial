@@ -404,3 +404,8 @@ footer p {
   margin-top: 10px;
   text-align: center;
 }
+
+#post > p {
+  text-align: center;
+  font-weight: 600;
+}
