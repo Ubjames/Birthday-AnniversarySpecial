@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "century gothic";
+  font-family: "century gothic", "muli";
 }
 
 .header {
@@ -64,7 +64,7 @@
   .header > a {
     font-size: 0.9rem;
     margin-left: -3px;
-    font-weight: 100;
+    font-weight: 600;
   }
 }
 .home {
@@ -190,9 +190,9 @@ section .text,
 .img-container {
   margin-top: -150px;
 }
-@media screen and (max-height: 600px){
+@media screen and (max-height: 600px) {
   section > button {
-     margin-bottom: -50px;
+    margin-bottom: -50px;
   }
 }
 
@@ -211,7 +211,7 @@ section .text,
   }
 }
 
- /*@media screen and (max-width: 400px) {
+/*@media screen and (max-width: 400px) {
   .text {
      
     
