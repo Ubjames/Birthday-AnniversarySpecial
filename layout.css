@@ -177,8 +177,14 @@ section > button {
   border-radius: 0.3em;
   font-size: 1.5rem;
   box-shadow: 1px 1px 10px #313131;
+  cursor: pointer;
 }
-
+button:focus{
+  outline: none;
+}
+button:hover{
+  background: #ff0062;
+}
 @media screen and (min-width: 501px) {
   section > button {
     position: absolute;
@@ -211,13 +217,7 @@ section .text,
   }
 }
 
-/*@media screen and (max-width: 400px) {
-  .text {
-     
-    
-  }
-}
-*/
+
 @media screen and (min-width: 500px) {
   .text {
     max-height: 300px;
@@ -408,4 +408,8 @@ footer p {
 #post > p {
   text-align: center;
   font-weight: 600;
+  margin-bottom: 50px;
+  background: #7e0232;
+  padding: 10px;
+  color:#fff;
 }
