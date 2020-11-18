@@ -301,8 +301,9 @@ p > a {
   height: 500px;
 }
 iframe {
-  width: 600px;
-  height: 600px;
+  border: 1px sold red;
+  width: 500px;
+  height: 500px;
   margin: 0;
   padding: 0;
 }
