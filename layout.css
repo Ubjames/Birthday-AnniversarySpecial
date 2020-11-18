@@ -179,10 +179,10 @@ section > button {
   box-shadow: 1px 1px 10px #313131;
   cursor: pointer;
 }
-button:focus{
+button:focus {
   outline: none;
 }
-button:hover{
+button:hover {
   background: #ff0062;
 }
 @media screen and (min-width: 501px) {
@@ -216,7 +216,6 @@ section .text,
     margin-bottom: -80px;
   }
 }
-
 
 @media screen and (min-width: 500px) {
   .text {
@@ -263,7 +262,7 @@ ul li {
 }
 
 .section2 {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -289,76 +288,13 @@ p > a {
 .main-wrap {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
-}
-.video-wraper {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  justify-self: center;
-  overflow: hidden;
-  width: 500px;
-  height: 500px;
 }
-iframe {
-  border: 1px sold red;
-  width: 500px;
-  height: 500px;
-  margin: 0;
-  padding: 0;
-}
-
-form {
-  margin-top: 100px;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  margin-left: 50px;
-}
-form > .user-id > input {
-  font-size: 1.5rem;
-  border: 2px solid #7c0149;
-  background: #7c014918;
+.main-wrap > img{
   width: 300px;
-  height: 50px;
-  margin-right: 10px;
-  padding: 10px;
-  border-radius: 0.4em;
+  height: 300px;
 }
 
-form > .comment-section > textarea {
-  font-size: 1.5rem;
-  background: #7c014918;
-  border: 2px solid #7c0149;
-  margin-top: 10px;
-  width: 610px;
-  height: 200px;
-  padding: 10px;
-  border-radius: 0.4em;
-}
-
-form > .comment-section > button {
-  color: #fff;
-  background: #5a1d4d;
-  border: none;
-  width: 100px;
-  height: 45px;
-  border-radius: 0.3em;
-  margin-left: 10px;
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-form > .comment-section {
-  display: flex;
-  align-items: flex-end;
-}
-
-form > #title {
-  font-size: 1.3rem;
-  margin-bottom: 10px;
-}
 
 footer {
   background: rgb(22, 15, 20);
@@ -412,5 +348,5 @@ footer p {
   margin-bottom: 50px;
   background: #7e0232;
   padding: 10px;
-  color:#fff;
+  color: #fff;
 }
